@@ -7,7 +7,7 @@ const { GraphQLSchema, GraphQLObjectType, GraphQLString } = require('graphql')
 
 const schema = new GraphQLSchema({
     query: new GraphQLObjectType({
-        name: 'HelloWorld',
+        name: 'Root',
         fields: () => ({
             message: {
                 type: GraphQLString,

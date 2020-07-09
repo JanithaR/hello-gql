@@ -1,27 +1,28 @@
 {
-  "name": "hello-gql",
-  "version": "1.0.0",
-  "description": "Hello GraphQL",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-graphql": "^0.11.0",
-    "graphql": "^15.3.0",
-    "serverless-http": "^2.5.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JanithaR/hello-gql.git"
-  },
-  "author": "Janitha Ranawansa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JanithaR/hello-gql/issues"
-  },
-  "homepage": "https://github.com/JanithaR/hello-gql#readme"
+    "name": "hello-gql",
+    "version": "1.0.0",
+    "description": "Hello GraphQL",
+    "main": "index.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express-graphql": "^0.11.0",
+        "graphql": "^15.3.0",
+        "serverless-http": "^2.5.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "open-playground": "echo go to http://localhost:8888/.netlify/functions/api && netlify dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JanithaR/hello-gql.git"
+    },
+    "author": "Janitha Ranawansa",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JanithaR/hello-gql/issues"
+    },
+    "homepage": "https://github.com/JanithaR/hello-gql#readme"
 }
